@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////
+//derap: produced from mikero's dos tools dll version 6.03
+//'now' is fri jan 20 13:22:44 2017 : 'file' last modified on mon dec 19 03:51:36 2011
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _arma_
+
+//class ca : data\default.rvmat{
+ambient[] = {1,1,1,1};
+diffuse[] = {1,1,1,1};
+forceddiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {0,0,0,0};
+specularpower = 0;
+pixelshaderid = "normal";
+vertexshaderid = "basic";
+//};

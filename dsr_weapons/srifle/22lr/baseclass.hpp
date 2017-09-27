@@ -1,0 +1,61 @@
+class rifle;
+class m16_base : rifle
+{
+	magazines[]={"m16a2_mag_a3psf"};
+    modes[]={"single","burst"};
+	class single : mode_semiauto
+    {
+        begin1[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_1.wss",1.77828,1,1000};
+        begin2[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_2.wss",1.77828,1,1000};
+		begin3[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_3.wss",1.77828,1,1000};
+		begin4[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_4.wss",1.77828,1,1000};
+        soundbegin[]={"begin1",0.5,"begin2",0.5,"begin3",0.5,"begin4",0.5};
+        reloadtime=0.075;
+        recoil="recoil_single_primary_3outof10";
+        recoilprone="recoil_single_primary_prone_3outof10";
+        dispersion=0.001;
+        minrange=2;
+        minrangeprobab=0.3;
+        midrange=250;
+        midrangeprobab=0.7;
+        maxrange=400;
+        maxrangeprobab=0.05;
+    };
+	class burst : mode_burst
+    {
+		begin1[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_1.wss",1.77828,1,1000};
+        begin2[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_2.wss",1.77828,1,1000};
+		begin3[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_3.wss",1.77828,1,1000};
+		begin4[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_4.wss",1.77828,1,1000};
+        soundbegin[]={"begin1",0.5,"begin2",0.5,"begin3",0.5,"begin4",0.5};
+		soundburst=0;
+		recoil="recoil_single_primary_3outof10";
+        recoilprone="recoil_single_primary_prone_3outof10";
+		minrange=0;
+		minrangeprobab=0.3;
+		midrange=80;
+		midrangeprobab=0.7;
+		maxrange=120;
+		maxrangeprobab=0.05;
+		dispersion=0.001;
+		reloadtime=0.075;
+    };
+	class fullauto : mode_fullauto
+    {
+		begin1[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_1.wss",1.77828,1,1000};
+        begin2[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_2.wss",1.77828,1,1000};
+		begin3[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_3.wss",1.77828,1,1000};
+		begin4[]={"\a3psf\sounds_a3psf\weapons\m16\m16_a3psf_4.wss",1.77828,1,1000};
+        soundbegin[]={"begin1",0.5,"begin2",0.5,"begin3",0.5,"begin4",0.5};
+		reloadtime=0.09;
+		recoil="recoil_auto_primary_3outof10";
+		recoilprone="recoil_auto_primary_prone_3outof10";
+		dispersion=0.00175;
+		minrange=0;
+		minrangeprobab=0.1;
+		midrange=25;
+		midrangeprobab=0.7;
+		maxrange=70;
+		maxrangeprobab=0.05;
+    };
+};

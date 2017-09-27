@@ -1,0 +1,78 @@
+ambient[]={1.000000,1.000000,1.000000,1.000000};
+diffuse[]={1.000000,1.000000,1.000000,1.000000};
+forceddiffuse[]={0.000000,0.000000,0.000000,0.000000};
+emmisive[]={0.000000,0.000000,0.000000,1.000000};
+specular[]={0.056000,0.068130,0.080000,1.000000};
+specularpower=128.000000;
+pixelshaderid="super";
+vertexshaderid="super";
+class stage1
+{
+	texture="dsr_weapons\srifle\cz550\data\huntingrifle_nohq.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage2
+{
+	texture="dsr_weapons\srifle\cz550\data\metal_detail_dt.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={4.000000,0.000000,0.000000};
+		up[]={0.000000,4.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage3
+{
+	texture="#(argb,8,8,3)color(0,0,0,0)";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage4
+{
+	texture="dsr_weapons\srifle\cz550\data\huntingrifle_as.paa";
+	uvsource="tex1";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage5
+{
+	texture="dsr_weapons\srifle\cz550\data\huntingrifle_smdi.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage6
+{
+	texture="#(ai,64,64,1)fresnel(0.38,0.03)";
+	uvsource="none";
+};
+class stage7
+{
+	texture="a3\data\env_land_co.tga";
+	uvsource="none";
+};

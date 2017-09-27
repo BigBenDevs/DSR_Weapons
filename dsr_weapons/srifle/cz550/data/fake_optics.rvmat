@@ -1,0 +1,88 @@
+////////////////////////////////////////////////////////////////////
+//derap: produced from mikero's dos tools dll version 6.03
+//'now' is fri jan 20 13:24:18 2017 : 'file' last modified on wed sep 09 07:05:49 2009
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _arma_
+
+//class weapons : dmr\data\fake_optics.rvmat{
+ambient[] = {1.0,1.0,1.0,1.0};
+diffuse[] = {1.0,1.0,1.0,1.0};
+forceddiffuse[] = {1.0,1.0,1.0,1.0};
+emmisive[] = {0.0,0.0,0.0,1.0};
+specular[] = {1.0,1.0,1.0,1.0};
+specularpower = 500.0;
+pixelshaderid = "super";
+vertexshaderid = "super";
+class stage1
+{
+	texture = "#(rgb,8,8,3)color(0.5,0.5,1,1,nohq)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage2
+{
+	texture = "#(argb,8,8,3)color(0.5,0.5,0.5,0.5,dt)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage3
+{
+	texture = "#(argb,8,8,3)color(1,1,1,0.0,mc)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage4
+{
+	texture = "#(argb,8,8,3)color(1,1,1,1,as)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage5
+{
+	texture = "#(rgb,8,8,3)color(1,1,1,1,smdi)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage6
+{
+	texture = "#(ai,64,64,1)fresnel(0.915,0.38)";
+	uvsource = "none";
+};
+class stage7
+{
+	texture = "a3\data\env_land_optic_co.paa";
+	uvsource = "none";
+};
+//};

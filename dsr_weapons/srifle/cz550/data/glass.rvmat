@@ -1,0 +1,88 @@
+////////////////////////////////////////////////////////////////////
+//derap: produced from mikero's dos tools dll version 6.03
+//'now' is fri jan 20 13:24:19 2017 : 'file' last modified on thu sep 17 05:36:18 2009
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _arma_
+
+//class weapons2 : huntingrifle\data\glass.rvmat{
+ambient[] = {0.031373,0.270588,0.34902,1.0};
+diffuse[] = {0.031373,0.270588,0.34902,1.0};
+forceddiffuse[] = {0.0,0.0,0.0,0.0};
+emmisive[] = {0.0,0.0,0.0,1.0};
+specular[] = {0.507888,0.878491,1.0,1.0};
+specularpower = 128.0;
+pixelshaderid = "super";
+vertexshaderid = "super";
+class stage1
+{
+	texture = "dsr_weapons\srifle\cz550\data\huntingrifle_nohq.paa";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage2
+{
+	texture = "#(argb,8,8,3)color(0.5,0.5,0.5,1,dt)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {4.0,0.0,0.0};
+		up[] = {0.0,4.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage3
+{
+	texture = "#(argb,8,8,3)color(0,0,0,0)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage4
+{
+	texture = "#(argb,8,8,3)color(1,1,1,1,as)";
+	uvsource = "tex1";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage5
+{
+	texture = "#(argb,8,8,3)color(0,1,1,1,smdi)";
+	uvsource = "tex";
+	class uvtransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class stage6
+{
+	texture = "#(ai,64,64,1)fresnel(0.73,1.71)";
+	uvsource = "none";
+};
+class stage7
+{
+	texture = "a3\data\env_land_co.paa";
+	uvsource = "none";
+};
+//};

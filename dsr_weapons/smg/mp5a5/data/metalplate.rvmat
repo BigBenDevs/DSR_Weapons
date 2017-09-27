@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 6.03
+//'now' is Fri Jan 20 13:22:44 2017 : 'file' last modified on Mon Dec 19 03:51:36 2011
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class Ca : crazymike_as50\data\metalplate.rvmat{
+surfaceInfo = "dsr_weapons\smg\mp5a5\data\metalPlate.bisurf";
+ambient[] = {0.490196,0.592157,0.556863,1.0};
+diffuse[] = {0.490196,0.592157,0.556863,1.0};
+forcedDiffuse[] = {0.0,0.0,0.0,0.0};
+emmisive[] = {0.0,0.0,0.0,1.0};
+specular[] = {0.0,0.0,0.0,1.0};
+specularPower = 1.0;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+//};

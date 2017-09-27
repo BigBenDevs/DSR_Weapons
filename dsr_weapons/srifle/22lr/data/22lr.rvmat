@@ -1,0 +1,92 @@
+ambient[]={1.000000,1.000000,1.000000,1.000000};
+diffuse[]={1.000000,1.000000,1.000000,1.000000};
+forceddiffuse[]={0.000000,0.000000,0.000000,0.000000};
+emmisive[]={0.000000,0.000000,0.000000,1.000000};
+specular[]={0.700000,0.700000,0.700000,1.000000};
+specularpower=80.000000;
+pixelshaderid="super";
+vertexshaderid="super";
+class stage1
+{
+	texture="dsr_weapons\srifle\22lr\data\22lr_nohq.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage2
+{
+	texture="dsr_weapons\srifle\dmr\data\metal_rough_dt.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={4.000000,0.000000,0.000000};
+		up[]={0.000000,4.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage3
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,mc)";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage4
+{
+	texture="dsr_weapons\srifle\22lr\data\22lr_as.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage5
+{
+	texture="dsr_weapons\srifle\22lr\data\22lr_smdi.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage6
+{
+	texture="#(ai,64,64,1)fresnel(5.64,1.81)";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};
+class stage7
+{
+	texture="a3\data_f\env_land_co.paa";
+	uvsource="tex";
+	class uvtransform
+	{
+		aside[]={1.000000,0.000000,0.000000};
+		up[]={0.000000,1.000000,0.000000};
+		dir[]={0.000000,0.000000,0.000000};
+		pos[]={0.000000,0.000000,0.000000};
+	};
+};

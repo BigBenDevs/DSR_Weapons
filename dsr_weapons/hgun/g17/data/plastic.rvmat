@@ -1,0 +1,13 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 6.03
+//'now' is Fri Jan 20 13:22:44 2017 : 'file' last modified on Mon Dec 19 03:51:36 2011
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class Ca : data\penetration\plastic.rvmat{
+surfaceInfo = "dsr_weapons\hgun\g17\data\plastic.bisurf";
+diffuse[] = {0.5,0.5,1.0,1.0};
+ambient[] = {0.5,0.5,1.0,1.0};
+//};

@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 6.03
+//'now' is Fri Jan 20 13:24:17 2017 : 'file' last modified on Wed Sep 09 07:05:37 2009
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class weapons : Data\pso_optics.rvmat{
+ambient[] = {0.02,0.01,0.01,1};
+diffuse[] = {0.02,0.01,0.01,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0.02,0.01,0.01,1};
+specular[] = {0,0,0,0};
+specularPower = 0;
+renderFlags[] = {"NoZWrite"};
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+//};
